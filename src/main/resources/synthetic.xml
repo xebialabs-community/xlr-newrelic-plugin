@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+
+    THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS
+    FOR A PARTICULAR PURPOSE. THIS CODE AND INFORMATION ARE NOT SUPPORTED BY XEBIALABS.
+
+-->
+
+<synthetic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.xebialabs.com/deployit/synthetic" xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd">
+
+    <type type="newrelic.Server" extends="xlrelease.Configuration">
+
+        <property name="url" label="Newrelic URL" description="Newrelic Incoming WebHook URL" required="true"/>
+        <property name="apiKey" lable="API Key" description="API Key for Newrelic instance"/>
+        <property name="proxyUrl" category="input" label="Proxy URL" description="Proxy URL to use in format http://username:password@proxyurl:proxyport, leave it in blank if isn't required" required="false"/>
+
+    </type>
+
+    <type type="newrelic.DeploymentNotification" extends="xlrelease.PythonScript">
+
+        <!-- Plugin -->
+        <property name="iconLocation" hidden="true" default="newrelic/logo.png"/>
+        <property name="taskColor" hidden="true" default="#007987"/>
+
+        <!-- Inputs -->
+        <property name="server" category="input" label="Server" description="The Newrelic server definition to use" required="true" referenced-type="newrelic.Server" kind="ci"/>
+        <property name="revision" category="input" label="Revision" description="A unique ID for this deployment,usually a version number or a Git checksum." required="true"/>
+        <property name="changelog" category="input" label="Changelog" description="A summary of what changed in this deployment" required="true"/>
+        <property name="description" category="input" label="Description" description="A high-level description of this deployment" required="true"/>
+        <property name="user" category="input" label="User" description="A username to associate with the deployment" required="true"/>
+        <property name="applicationId" category="input" label="Application ID" description="New Relic ID of the application being deployed" />
+    </type>
+
+</synthetic>
