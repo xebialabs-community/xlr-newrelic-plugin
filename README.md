@@ -3,10 +3,17 @@
 This plugin provides a deployment notification task to NewRelic
 It's based on the [Recording deployments](https://docs.newrelic.com/docs/apm/new-relic-apm/maintenance/recording-deployments) REST API
 
-[![Build Status][xld-newrelic-travis-image] ][xld-newrelic-travis-url]
+[![Build Status][xlr-newrelic-travis-image] ][xlr-newrelic-travis-url]
+[![Build Status][xlr-newrelic-codacy-image] ][xlr-newrelic-codacy-url]
+[![Build Status][xlr-newrelic-code-climate-image] ][xlr-newrelic-code-climate-url]
 
-[xld-newrelic-travis-image]: https://travis-ci.org/xebialabs-community/xlr-newrelic-plugin.svg?branch=master
-[xld-newrelic-travis-url]: https://travis-ci.org/xebialabs-community/xlr-newrelic-plugin
+
+[xlr-newrelic-travis-image]: https://travis-ci.org/xebialabs-community/xlr-newrelic-plugin.svg?branch=master
+[xlr-newrelic-travis-url]: https://travis-ci.org/xebialabs-community/xlr-newrelic-plugin
+[xlr-newrelic-codacy-image]: https://api.codacy.com/project/badge/Grade/7e66235d52e3447c890c7c2e0ea9edb4
+[xlr-newrelic-codacy-url]: https://www.codacy.com/app/rvanstone/xlr-newrelic-plugin
+[xlr-newrelic-code-climate-image]: https://codeclimate.com/github/xebialabs-community/xlr-newrelic-plugin/badges/gpa.svg
+[xlr-newrelic-code-climate-url]: https://codeclimate.com/github/xebialabs-community/xlr-newrelic-plugin
 
 
 ## New Relic setup
