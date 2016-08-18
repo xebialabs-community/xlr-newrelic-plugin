@@ -3,6 +3,11 @@
 This plugin provides a deployment notification task to NewRelic
 It's based on the [Recording deployments](https://docs.newrelic.com/docs/apm/new-relic-apm/maintenance/recording-deployments) REST API
 
+[![Build Status][xld-newrelic-travis-image] ][xld-newrelic-travis-url]
+
+[xld-newrelic-travis-image]: https://travis-ci.org/xebialabs-community/xlr-newrelic-plugin.svg?branch=master
+[xld-newrelic-travis-url]: https://travis-ci.org/xebialabs-community/xlr-newrelic-plugin
+
 
 ## New Relic setup
 
