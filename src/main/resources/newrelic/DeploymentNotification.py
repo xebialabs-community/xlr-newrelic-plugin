@@ -54,13 +54,13 @@ try:
     endpoint = "%s/v2/applications/%s/deployments.json" % (url,applicationId)
     request = urllib2.Request(endpoint)
     request.add_header('Content-Type', 'application/json')
-    request.add_header('X-Api-Key', apiKey) 
+    request.add_header('X-Api-Key', apiKey)
     postdata = {
                    "deployment": {
                    "revision": revision,
                    "changelog": changelog,
                    "description": description,
-                   "user": user 
+                   "user": user
                  }
                 }
     data = json.dumps(postdata)
