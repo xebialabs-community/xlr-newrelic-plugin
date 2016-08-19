@@ -13,3 +13,7 @@ license {
 
 // Project version
 version="1.0.0"
+
+xlrDocker {
+    version = '5.0.1.10'
+}
