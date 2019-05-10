@@ -9,3 +9,6 @@ deploy:
   on:
     tags: true
     repo: xebialabs-community/xlr-newrelic-plugin
+notifications:
+  slack:
+    secure: G8BiQ/clO08hzDF3eS8//7GAmZAAH0y+j27cz9/Pk4LQZ9F2Qbm0GfqKeiv5iz1BqZ9stNq1vOP5JuTW8MyR/VqtKFvCLSHvu+c+Qn9rJzKYG7rI0Xq6DL5fLpCrAMCoejyFumA3B+Sh08MALbLSxyLwRPu0OSY07ggE4ellkDGYMLAzP/Pjg8hq83dWVAX2XyKsiMSWAhszwMvwaUJ/6cVQgGots+dn+x6YtJ4GiWJxY01pZi6p6hd7Ib/iZNflfHhdKNxAEhoTMmi9+zWIvbOY2iSO41Fb1X6SBHqxM2nDQBwqsk62Gi8aY4EfMlHoiVz/Ayff/hxKUeHT5tf/xL3gSgrVAoXMCBRAChuU6liR/wAdWUiz5mtvBvtVtyTVAdtdemiIKZOhPyvvL3jPvl28tY8VSmgIr/yGz+n1wfPXgYJSMImaps0tVINww47Mlr1QmZz8KSQarq32QxWKnvpcE6m6W0RN6/I5Nu13IF1bmoIm24MiIRkFW76RPezr8Q4KDKwvW3OhGd7KuIIWVEQOkIQghoFg6pC1C/c6+9p2DWhIqO1N+9nRQX3pZ9uv/2PGXBkSvs0Lb08/22Ey+RXJwY8nlzkvChuJDhAT4DgDqQs0BUbcXcsyLnnf8ZG/lOiTl38q1S6GWtDT6SnA1g7Wh+wUHRuCjI2fz+54hf4=
